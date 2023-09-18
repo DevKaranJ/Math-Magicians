@@ -73,7 +73,7 @@ Before you begin, ensure you have the following tools and dependencies installed
 ### Clone the Repository
 Use the following command to clone the "Math Magicians" repository to your desired folder:
 
-```bash
+bash
 git clone https://github.com/DevKaranJ/math-magicians.git
 
 
