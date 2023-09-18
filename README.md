@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [LeaderBoard] <a name="about-project"></a>
+# 📖 [Math Magician] <a name="about-project"></a>
 
 
 
