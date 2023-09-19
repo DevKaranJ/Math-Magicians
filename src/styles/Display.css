@@ -1,0 +1,8 @@
+.calculator-display {
+  display: flex;
+  background-color: #858694;
+  width: 20rem;
+  height: 4rem;
+  color: #fff;
+  justify-content: flex-end;
+}
