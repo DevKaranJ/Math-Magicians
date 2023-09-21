@@ -1,10 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../styles/Display.css';
 
-const Display = () => (
-  <div className="calculator-display">
-    <p>0.00</p>
-  </div>
-);
+function Display({ value }) {
+  return <div className="calculator-display">{value}</div>;
+}
+
+Display.propTypes = {
+  value: PropTypes.string.isRequired,
+};
 
 export default Display;
