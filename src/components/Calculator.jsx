@@ -17,6 +17,9 @@ function Calculator() {
 
   return (
     <div className="calculator">
+      <div className="calculator-heading">
+        <h1>Welcome to Math Magicians</h1>
+      </div>
       <Display className="input-display" value={calculatorData.next || calculatorData.total || '0'} />
       <div className="calculator-buttons">
         <div className="calculator-row">
