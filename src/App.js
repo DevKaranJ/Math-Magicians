@@ -11,8 +11,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Logo />
-        <Navigation />
+        <div className="App-header">
+          <Logo />
+          <Navigation />
+        </div>
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/calculator" element={<Calculator />} />
