@@ -4,6 +4,7 @@
   list-style: none;
 }
 
+/** Navigation bar **/
 .App-header {
   display: flex;
   justify-content: space-between;
@@ -49,6 +50,7 @@
   font-weight: bold;
 }
 
+/** Home page **/
 .home {
   display: flex;
   flex-direction: column;
