@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/Quote.css';
 
 const Quote = () => {
   const [quote, setQuote] = useState('');
@@ -49,7 +50,7 @@ const Quote = () => {
   }
 
   return (
-    <div>
+    <div className="Quote">
       <h2>Random Quote:</h2>
       <p>{quote}</p>
     </div>
